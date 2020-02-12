@@ -68,6 +68,10 @@ def WON?
  combo.all{[win|binding.pry}
 end
 
+def full
+  turn_count == 9 
+end
+
 
   
   
