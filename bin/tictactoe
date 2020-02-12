@@ -55,6 +55,12 @@ def turn.count
       counter += 1 
   end
   
+def current_player
+  if its_an_even then
+  or turn_count
+  else return ("X", "O")
+end
+
 
   
   
