@@ -48,7 +48,16 @@ def turn
     turn
   end
   
+def turn.count
+  counter = 0
+  @board.each do |el|
+    if el = "X" || "O"
+      counter += 1 
+  end
+  
 
+  
+  
 
 
 
