@@ -61,6 +61,13 @@ def current_player
   else return ("X", "O")
 end
 
+def WON?
+ winner = nil 
+ WIN_COMBINATIONS.each.do |combo|
+ binding.pry
+ combo.all{[win|binding.pry}
+end
+
 
   
   
