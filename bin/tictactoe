@@ -86,6 +86,13 @@ def winner?
   won?? @board [won?[o]]:nil
 end
 
+def play 
+  take_turn_until_over?
+  if winner
+    puts "Congradulations_#{winner}?"
+  else puts "Cats Game!"
+end
+
 
   
   
