@@ -33,6 +33,10 @@ def move (index, token = "x")
   @board [index] = token
 end
 
+def position_token?(token)
+
+end
+
 
 
 
