@@ -81,6 +81,11 @@ def over?
 end
 
 
+def winner? 
+  binding.pry
+  won?? @board [won?[o]]:nil
+end
+
 
   
   
