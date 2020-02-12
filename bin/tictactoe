@@ -6,6 +6,10 @@ class board
   attr_reader :board
 end
 
+def initialize
+  @board = Array.new(9," ")
+end
+
 def WIN_COMBINATIONS [[0,1,2])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([3,4,5])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([6,7,8])
@@ -16,9 +20,7 @@ def WIN_COMBINATIONS [[0,1,2])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([6,4,2])
 end
 
-def initialize
-  @board = Array.new(9," ")
-end
+
 
 
 
