@@ -29,6 +29,10 @@ def input__to_index(input)
   input.to_i-1
 end
 
+def move (index, token = "x")
+  @board [index] = token
+end
+
 
 
 
