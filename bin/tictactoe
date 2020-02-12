@@ -6,6 +6,12 @@ class board
   attr_reader :board
 end
 
+game = TicTacToe
+game.play
+
+end
+
+
 def initialize
   @board = Array.new(9," ")
 end
