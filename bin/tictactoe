@@ -14,7 +14,14 @@ def WIN_COMBINATIONS [[0,1,2])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([2,5,8])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([0,4,8])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([6,4,2])
-      end
+end
+
+def initialize
+  @board = Array.new(9," ")
+end
+
+
+
 
 
 
