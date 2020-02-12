@@ -21,7 +21,15 @@ def WIN_COMBINATIONS [[0,1,2])
 end
 
 def display_board
-  puts 
+  @board = board
+  
+end
+
+def input__to_index(input)
+  input.to_i-1
+end
+
+
 
 
 
